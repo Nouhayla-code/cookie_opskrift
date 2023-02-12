@@ -6,12 +6,12 @@ body {
 main {
   display: grid;
   grid-template-areas: "header header header" "nav article aside" "footer footer footer";
-  grid-template-rows: 20vh 70vh 10vh;
+  grid-template-rows: 10vh 50vh 40vh;
 }
 
 header {
   grid-area: header;
-  background-color: rgb(122, 122, 211);
+  background-color: papayawhip;
 }
 nav {
   grid-area: nav;
@@ -23,9 +23,9 @@ article {
 }
 aside {
   grid-area: aside;
-  background-color: rgb(193, 193, 45);
+  background-color: rgb(210, 200, 172);
 }
 footer {
   grid-area: footer;
-  background-color: violet;
+  background-color: papayawhip;
 }
